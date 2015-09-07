@@ -10,7 +10,9 @@
 	}
 %>
 
-<aui:input name="priority" type="text" value="<%= priority %>">
-	<aui:validator name="number" />
-	<aui:validator name="min">[0]</aui:validator>
-</aui:input>
+<aui:fieldset>
+	<aui:input name="priority" type="text" value="<%= priority %>">
+		<aui:validator name="number" />
+		<aui:validator name="min">[0]</aui:validator>
+	</aui:input>
+</aui:fieldset>
